@@ -1,14 +1,14 @@
 <img src="Imagens do README/Cabecalho.png"/>
 
-# Cubo Gelatinoso — Previsão de Desempenho Escolar com k-NN
+# Cubo Gelatinoso - Previsão de Desempenho Escolar com k-NN
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-COMPLETE AQUI-blue">
+  <img src="https://img.shields.io/badge/Python-3.13.7-blue">
   <img src="https://img.shields.io/badge/scikit--learn-KNN-green">
   <img src="https://img.shields.io/badge/Área-Machine%20Learning-darkred">
 </p>
 
-Notebook desenvolvido em Python que investiga o desempenho do algoritmo de *k*-vizinhos mais próximos (*k*-NN) na previsão da nota final de estudantes, a partir do **Student Performance Data Set** (Cortez & Silva, 2008). O trabalho testa exaustivamente diferentes combinações de hiperparâmetros (número de vizinhos, tipo de distância, ponderação dos vizinhos e conjunto de atributos utilizado), com e sem normalização dos dados, discutindo criticamente os resultados obtidos. Este projeto é a primeira entrega ("Cubo Gelatinoso") da disciplina Aprendizado de Máquina, ministrada pelo Prof. Dr. Daniel R. Cassar na Ilum Escola de Ciência, realizada individualmente pelo aluno Gustavo Junqueira Colas.
+Notebook desenvolvido em Python pelo aluno Gustavo Junqueira Colas como projeto para a disciplina de Aprendizado de Máquina do segundo semestre da Ilum. O trabalho investiga o desempenho do algoritmo de *k*-vizinhos mais próximos (*k*-NN) na previsão da nota final de estudantes, a partir do **Student Performance Data Set** (Cortez & Silva, 2008). O trabalho testa exaustivamente diferentes combinações de hiperparâmetros (número de vizinhos, tipo de distância, ponderação dos vizinhos e conjunto de atributos utilizado), com e sem normalização dos dados, discutindo criticamente os resultados obtidos. Este projeto é a primeira entrega ("Cubo Gelatinoso") da disciplina Aprendizado de Máquina, ministrada pelo Prof. Dr. Daniel R. Cassar na Ilum Escola de Ciência, realizada individualmente pelo aluno Gustavo Junqueira Colas.
 
 ## Como executar:
 
@@ -32,14 +32,14 @@ pip install -r requirements.txt
       <li>:framed_picture: <b>Dist_Minkowski.png</b>, <b>Dist_Chebyshev.png</b>: fórmulas das distâncias utilizadas pelo algoritmo</li>
       <li>:framed_picture: <b>Def_r2.png</b>: fórmula do coeficiente de determinação R²</li>
     </ul>
-  <li>:notebook: <b>Notebook_para_git.ipynb</b>: notebook completo, com revisão teórica, código comentado, resultados e conclusões</li>
+  <li>:notebook: <b>Notebook_Cubo.ipynb</b>: notebook completo, com revisão teórica, código comentado, resultados e conclusões</li>
   <li>:page_facing_up: <b>student-mat.csv</b>: dataset utilizado (Student Performance Data Set, Cortez &amp; Silva, 2008, UCI Machine Learning Repository)</li>
   <li>:spiral_notepad: <b>requirements.txt</b>: lista das bibliotecas necessárias para rodar o projeto</li>
 </ul>
 
 ## Tecnologias Utilizadas:
 
-O projeto foi confeccionado inteiramente em *Jupyter Notebook*, na linguagem *Python* (versão COMPLETE AQUI), utilizando as bibliotecas *pandas*, *scikit-learn*, *matplotlib*, *seaborn*, *scipy* e *numpy*, além dos módulos nativos *itertools*, *re* e *ast*. Inteligência artificial (na forma de *LLMs*) foi utilizada para COMPLETE AQUI.
+O projeto foi confeccionado inteiramente em *Jupyter Notebook*, na linguagem *Python* (versão 3.13.7), utilizando as bibliotecas *pandas*, *scikit-learn*, *matplotlib*, *seaborn*, *scipy* e *numpy*, além dos módulos nativos *itertools*, *re* e *ast*. Inteligência artificial (na forma de *LLMs*) foi utilizada especialmente para formatação da linguagem *Markdown* (o que inclui o refinamento desse README) e para a disposição visualmente atraente dos gráficos utilizados no trabalho.
 
 ## Sobre o dataset e os atributos:
 
@@ -62,10 +62,6 @@ O notebook testa exaustivamente diferentes combinações de:
 - Ponderação dos vizinhos (uniforme ou pelo inverso da distância)
 - Conjunto de atributos utilizado
 - Normalização dos dados (com e sem)
-
-## COMPLETE AQUI (seção opcional, ex.: charge/imagem relevante):
-
-<img src="COMPLETE AQUI"/>
 
 ## Professor avaliador:
 
@@ -94,6 +90,3 @@ O notebook testa exaustivamente diferentes combinações de:
 </table>
 <img src="Imagens do README/Rodape.png"/>
 
-## Agradecimentos:
-
-COMPLETE AQUI
